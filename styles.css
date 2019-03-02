@@ -1,8 +1,8 @@
-.BlueButton__blueButton-xnT0I {
-  background-color: #2d9cdb;
+.GreenButton__greenButton-2EYzy {
+  background-color: #27ae60;
 }
-.BlueButton__blueButton-xnT0I:hover {
-  background-color: #238fcc;
+.GreenButton__greenButton-2EYzy:hover {
+  background-color: #295;
 }
 *,
 *::after,
@@ -1546,14 +1546,14 @@ textarea:focus {
 }
 .Header__menuToggler-31J5V {
   position: absolute;
-  left: 300px;
+  left: 256px;
   cursor: pointer;
 }
 .index__wrapper-2vYdF {
   position: absolute;
-  left: 450px;
+  left: 346px;
   text-align: left;
-  width: 150px;
+  width: 190px;
 }
 .index__title-1V0uu {
   padding-left: 20px;
@@ -1579,6 +1579,119 @@ textarea:focus {
 }
 .index__submenu-K_oiw li:hover {
   background-color: #f1f1f1;
+}
+.UserStatus__wrapper-68WOd {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 27px;
+  min-height: 40px;
+  cursor: pointer;
+}
+.UserStatus__wrapper-68WOd:hover .UserStatus__toggle-1pH-x {
+  border-top: 10px solid #2f80ed;
+  transition: 0.3s;
+}
+.UserStatus__wrapper-68WOd::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 1px;
+  background: #e0e0e0;
+}
+.UserStatus__point-AxI_v {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-left: 27px;
+}
+.UserStatus__point-AxI_v.UserStatus__notLookForJob-3q6QO {
+  background-color: #24292e;
+}
+.UserStatus__point-AxI_v.UserStatus__active-7SJq6 {
+  background-color: #27ae60;
+}
+.UserStatus__point-AxI_v.UserStatus__notActive-1NAAC {
+  background-color: #eb5757;
+}
+.UserStatus__title-3IvoL {
+  margin-left: 15px;
+  color: #24292e;
+  font-size: 11px;
+  line-height: 1.2;
+  max-width: 64px;
+}
+.UserStatus__toggle-1pH-x {
+  border: 6px solid transparent;
+  border-top: 10px solid #b9c0c3;
+  margin-bottom: -5px;
+  margin-left: 28px;
+  transition: 0.3s;
+}
+.index__wrapper-1md0c {
+  position: absolute;
+  right: 0;
+  top: 66px;
+  width: 270px;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+}
+.index__block-Sj9jX {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.index__block-Sj9jX:hover {
+  border: 2px solid #2d9cdb;
+  transition: 0.3s;
+}
+.index__title-2Rmvk {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #24292e;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.index__title-2Rmvk.index__notLookForJob-2WGrX::before {
+  background-color: #24292e;
+}
+.index__title-2Rmvk.index__active-QBDAN::before {
+  background-color: #27ae60;
+}
+.index__title-2Rmvk.index__notActive-2Dk4n {
+  color: #eb5757;
+  margin-left: 56px;
+  padding-left: 42px;
+  margin-bottom: 25px;
+}
+.index__title-2Rmvk.index__notActive-2Dk4n::before {
+  background-image: url(images/danger-156fc04ea0e5fd47b9d283dd7a16b88d.svg);
+  height: 62px;
+  width: 62px;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  top: -7px;
+}
+.index__title-2Rmvk::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: -3px;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+.index__text-3Sbdy {
+  font-weight: 300;
+  font-size: 11px;
+  color: #24292e;
+  line-height: 1.5;
 }
 .Gallery__thumb-1upuF {
   display: inline-block;
@@ -3347,12 +3460,6 @@ a {
   border: none;
   outline: none;
 }
-.GreenButton__greenButton-2EYzy {
-  background-color: #27ae60;
-}
-.GreenButton__greenButton-2EYzy:hover {
-  background-color: #295;
-}
 .VacancyPage__vacancyPageContent-1DhKz {
   display: flex;
   flex-direction: row;
@@ -3514,6 +3621,12 @@ h2.VacancyPage__mapTitle-9T03Z {
   border: 1px solid #ebebeb;
   border-radius: 3px;
   padding: 20px 14px;
+}
+.BlueButton__blueButton-xnT0I {
+  background-color: #2d9cdb;
+}
+.BlueButton__blueButton-xnT0I:hover {
+  background-color: #238fcc;
 }
 .InputCheckbox__container-22AMj {
   display: block;
